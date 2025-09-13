@@ -1,6 +1,6 @@
 # Engenharia de Software Moderna - Exemplos de Código
 
-Exemplos de código do livro [Engenharia de Softwarea Moderna](https://engsoftmoderna.info) de autoria de 
+Exemplos de código do livro [Engenharia de Software Moderna](https://engsoftmoderna.info) de autoria de 
 Marco Tulio Valente.
 
 * [Capítulo 5]() - Exemplos sobre conceitos básicos de orientação a objetos
