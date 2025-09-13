@@ -1,0 +1,10 @@
+-- Esquema do banco de dados
+-- Para criar/recriar o bd, digitar no diretório BD:
+--   rm bib.db
+--   sqlite3 bib.db < bib.schema
+
+create table livros (isbn text, autor text, titulo text);
+
+insert into livros values ("1", "valente", "Engenharia de Software Moderna");
+insert into livros values ("2", "fowler", "Refactoring");
+insert into livros values ("3", "gof", "Design Patterns");

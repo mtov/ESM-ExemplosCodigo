@@ -1,0 +1,5 @@
+mvc/modelo/ServicoPesquisaLivros.class
+mvc/controladores/ControladorPesquisaLivros.class
+mvc/visao/PaginaDadosLivro.class
+mvc/modelo/Livro.class
+mvc/Main.class
