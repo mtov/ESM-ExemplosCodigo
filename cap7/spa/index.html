@@ -1,0 +1,39 @@
+<!--
+ Engenharia de Software Moderna - Arquitetura  (Cap. 7)
+ Prof. Marco Tulio Valente
+ 
+ Um pequeno exemplo de Single Page Application, usando o 
+ framework Vue.js (Seção 7.3)
+
+ Apenas para ilustrar, de forma mínima, uma aplicação Web 
+ com interface (visão + controle) e modelo
+
+-->
+
+<html>
+<script src="https://unpkg.com/vue@2"></script>
+<body>
+
+<h3>Uma Simples SPA</h3>
+
+<div id="ui">
+  Temperatura: {{ temperatura }}
+  <p><button v-on:click="incTemperatura">Incrementa</button></p>
+</div>
+
+<script>
+var model = new Vue({
+  el: '#ui',
+  data: {
+    temperatura: 30
+  },
+  methods: {
+    incTemperatura: function () {
+      this.temperatura++;
+    }
+  }
+})
+</script>
+
+</body>
+</html>
