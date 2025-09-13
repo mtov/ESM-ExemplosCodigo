@@ -2,7 +2,7 @@
 
 Exemplo mínimo de uma aplicação Java que segue uma Arquitetura MVC, com motivação didática apenas.
 
-Para executar a aplicação digite no diretório ```mvc```:
+Para executar a aplicação, digite no diretório ```mvc```:
 
 ```java -jar target/mvc-1.0.0-SNAPSHOT.jar```
 
