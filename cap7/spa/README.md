@@ -1,3 +1,7 @@
-# Cap. 7 - Arquitetura de Software
+# Exemplo de Single Page Application
 
-* [Single Page Application](https://github.com/mtov/ESM-ExemplosCodigo/tree/master/cap7/spa)
+Um pequeno exemplo de Single Page Application, usando o framework Vue.js (Seção 7.3). Apenas para ilustrar, de forma mínima, uma aplicação Web  com interface (visão + controle) e modelo
+
+Para visualizar, faça o download do arquivo [index.html](https://github.com/mtov/ESM-ExemplosCodigo/blob/master/cap7/spa/index.html) para sua máquina local e depois abra-o em um browser.
+
+Você pode também estudar o código deste arquivo, que inclui HTML e JavaScript.
