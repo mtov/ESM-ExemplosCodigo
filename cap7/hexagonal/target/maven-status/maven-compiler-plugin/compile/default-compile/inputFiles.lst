@@ -1,0 +1,7 @@
+/Users/mtov/ESM-ExemplosCodigo/cap7/hexagonal/src/main/java/hexagonal/Main.java
+/Users/mtov/ESM-ExemplosCodigo/cap7/hexagonal/src/main/java/hexagonal/adaptadores/PesquisaLivrosWeb.java
+/Users/mtov/ESM-ExemplosCodigo/cap7/hexagonal/src/main/java/hexagonal/adaptadores/RepositorioImpl.java
+/Users/mtov/ESM-ExemplosCodigo/cap7/hexagonal/src/main/java/hexagonal/dominio/Livro.java
+/Users/mtov/ESM-ExemplosCodigo/cap7/hexagonal/src/main/java/hexagonal/dominio/PesquisaLivros.java
+/Users/mtov/ESM-ExemplosCodigo/cap7/hexagonal/src/main/java/hexagonal/dominio/PesquisaLivrosImpl.java
+/Users/mtov/ESM-ExemplosCodigo/cap7/hexagonal/src/main/java/hexagonal/dominio/Repositorio.java
