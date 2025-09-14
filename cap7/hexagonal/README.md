@@ -4,7 +4,7 @@ Exemplo mínimo de uma aplicação Java que segue uma Arquitetura Hexagonal, com
 
 Para executar a aplicação, digite no diretório ```hexagonal```:
 
-```java -jar target/mvc-1.0.0-SNAPSHOT.jar```
+```java -jar target/hexagonal-1.0.0-SNAPSHOT-all.jar```
 
 E depois entre em um browser e digite:
 
