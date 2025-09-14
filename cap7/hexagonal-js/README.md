@@ -11,3 +11,7 @@ Para executar digite no diretório ```hexagonal-js```:
 ```node install express```
 
 ```node server.js```
+
+E depois entre em um browser e digite:
+
+http://localhost:3000
