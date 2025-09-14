@@ -1,4 +1,4 @@
-# Exemplo de Arquitetura Hexagonal
+# Exemplo de Arquitetura Hexagonal em Java
 
 Exemplo mínimo de uma aplicação Java que segue uma Arquitetura Hexagonal, com motivação didática apenas.
 
