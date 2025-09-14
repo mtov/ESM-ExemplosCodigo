@@ -1,63 +1,72 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+                             https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>mvc</groupId>
+  <groupId>com.exemplo</groupId>
   <artifactId>mvc</artifactId>
   <version>1.0.0-SNAPSHOT</version>
   <name>mvc</name>
-  <description>MVC example (Spark + SQLite)</description>
 
   <properties>
     <maven.compiler.source>17</maven.compiler.source>
     <maven.compiler.target>17</maven.compiler.target>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <sparkjava.version>2.9.4</sparkjava.version>
-    <sqlite.jdbc.version>3.46.0.0</sqlite.jdbc.version>
+    <mainClass>mvc.Main</mainClass>
   </properties>
 
   <dependencies>
-    <!-- Spark microframework -->
+    <!-- Spark Java framework -->
     <dependency>
       <groupId>com.sparkjava</groupId>
       <artifactId>spark-core</artifactId>
-      <version>${sparkjava.version}</version>
+      <version>2.9.4</version>
     </dependency>
 
-    <!-- SQLite JDBC driver -->
+    <!-- SQLite JDBC -->
     <dependency>
       <groupId>org.xerial</groupId>
       <artifactId>sqlite-jdbc</artifactId>
-      <version>${sqlite.jdbc.version}</version>
+      <version>3.46.0.0</version>
+    </dependency>
+
+    <!-- Testes -->
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter</artifactId>
+      <version>5.10.2</version>
+      <scope>test</scope>
     </dependency>
   </dependencies>
 
   <build>
+    <finalName>mvc-1.0.0-SNAPSHOT-all</finalName>
     <plugins>
+      <!-- Compilação -->
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
-        <version>3.11.0</version>
+        <version>3.13.0</version>
         <configuration>
           <release>17</release>
         </configuration>
       </plugin>
 
-      <!-- Create an executable fat JAR -->
+      <!-- Fat JAR -->
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-shade-plugin</artifactId>
-        <version>3.5.0</version>
+        <version>3.6.0</version>
         <executions>
           <execution>
             <phase>package</phase>
             <goals><goal>shade</goal></goals>
             <configuration>
-              <createDependencyReducedPom>false</createDependencyReducedPom>
+              <createDependencyReducedPom>true</createDependencyReducedPom>
               <transformers>
                 <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-                  <mainClass>mvc.Main</mainClass>
+                  <mainClass>${mainClass}</mainClass>
                 </transformer>
               </transformers>
             </configuration>
@@ -65,23 +74,15 @@
         </executions>
       </plugin>
 
-      <!-- Allow running with: mvn -q exec:java -->
+      <!-- Execução local -->
       <plugin>
         <groupId>org.codehaus.mojo</groupId>
         <artifactId>exec-maven-plugin</artifactId>
         <version>3.2.0</version>
         <configuration>
-          <mainClass>mvc.Main</mainClass>
+          <mainClass>${mainClass}</mainClass>
         </configuration>
       </plugin>
     </plugins>
-    <resources>
-      <resource>
-        <directory>src/main/resources</directory>
-        <includes>
-          <include>**/*</include>
-        </includes>
-      </resource>
-    </resources>
   </build>
 </project>
