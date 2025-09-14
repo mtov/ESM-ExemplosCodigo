@@ -1,6 +1,4 @@
-# Engenharia de Software Moderna
-
-**Prof. Marco Tulio Valente**
+# Exemplo de Arquitetura Hexagonal em JavaScript
 
 Exemplo de uma aplicação JavaScript que segue uma Arquitetura Hexagonal, com motivação didática apenas.
 
@@ -8,7 +6,7 @@ Ela está implementada em vanilla JavaScript e, basicamente, usa apenas funçõe
 
 Para facilitar o entendimento, a interface Web é muito simples também
 
-Se a interface Web não abrir no repl.it, digite em um browser:
+Para executar digite no diretório ```hexagonal-js```:
 
-[https://exemploarquiteturahexagonal-js.engsoftmoderna.repl.co](https://exemploarquiteturahexagonal-js.engsoftmoderna.repl.co)
-
+```node install express````
+```node server.js```
