@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
-Test set: exemplo1.TesteCalculadora
+Test set: exemplo2.BibliotecaTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 s - in exemplo1.TesteCalculadora
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 s - in exemplo2.BibliotecaTest
