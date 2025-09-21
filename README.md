@@ -7,3 +7,10 @@ Marco Tulio Valente.
 * [Capítulo 6](https://github.com/mtov/ESM-ExemplosCodigo/blob/master/cap6/README.md) - Exemplos de padrões de projeto
 * [Capítulo 7](https://github.com/mtov/ESM-ExemplosCodigo/blob/master/cap7/README.md) - Exemplos de arquitetura de software
 * [Capítulo 8](https://github.com/mtov/ESM-ExemplosCodigo/blob/master/cap8/README.md) - Exemplos de testes de software
+
+## Como rodar os exemplos?
+
+A maioria dos exemplos está implementada em Java. Neste caso, você vai precisar ter instalado na sua máquina.
+
+* Uma distrbuição de Java, como a [Eclipse Temurin](https://adoptium.net/).
+* [Maven](https://maven.apache.org/), que é um gerenciador de dependências
