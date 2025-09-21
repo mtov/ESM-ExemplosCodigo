@@ -1,6 +1,6 @@
-# Exemplo 1: Teste de Unidade:
+# Exemplo 1: Teste de Unidade
 
-Classes sendo testadas:
+Classes testadas neste exemplo:
 
 * [Calculadora.java](https://github.com/mtov/ESM-ExemplosCodigo/blob/master/cap8/exemplo1/src/main/java/exemplo1/Calculadora.java):
   uma calculadora bem simples
@@ -11,4 +11,13 @@ Classes sendo testadas:
 
 Essas classes são então testadas por meio dos seguintes testes:
 
+* [StackTest.java](https://github.com/mtov/ESM-ExemplosCodigo/blob/master/cap8/exemplo1/src/test/java/exemplo1/StackTest.java)
+* [TesteCalculadora.java](https://github.com/mtov/ESM-ExemplosCodigo/blob/master/cap8/exemplo1/src/test/java/exemplo1/TesteCalculadora.java)
+* [TesteExemploAdventOfCode.java](https://github.com/mtov/ESM-ExemplosCodigo/blob/master/cap8/exemplo1/src/test/java/exemplo1/TesteExemploAdventOfCode.java)
+
+## Como rodar os testes?
+
+Basta digitar na pasta raiz (`exemplo1`):
+
+```mvc clean test```
 
