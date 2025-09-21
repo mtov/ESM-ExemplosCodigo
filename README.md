@@ -10,6 +10,8 @@ Marco Tulio Valente.
 
 ## Como rodar os exemplos?
 
+### Java
+
 A maioria dos exemplos está implementada em Java. Então, você vai precisar ter instalado na sua máquina.
 
 * Uma distrbuição de Java, como a [Eclipse Temurin](https://adoptium.net/)
@@ -20,3 +22,9 @@ Para verificar se ambos estão corretamente instalados, use:
 ```java -version```
 
 ```mvn -v```
+
+### JavaScript
+
+Existem alguns exemplos em JavaScript. Neste caso, você vai precisar do [Node.js](https://nodejs.org/en). Para testar a instalação, use:
+
+```node -v```
