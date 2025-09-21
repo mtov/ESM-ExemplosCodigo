@@ -1,7 +1,0 @@
-hexagonal/adaptadores/PesquisaLivrosWeb.class
-hexagonal/dominio/Livro.class
-hexagonal/dominio/Repositorio.class
-hexagonal/dominio/PesquisaLivrosImpl.class
-hexagonal/dominio/PesquisaLivros.class
-hexagonal/Main.class
-hexagonal/adaptadores/RepositorioImpl.class
