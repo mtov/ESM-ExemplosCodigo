@@ -9,7 +9,7 @@ Classes testadas neste exemplo:
 * [ExemploAdventOfCode.java](https://github.com/mtov/ESM-ExemplosCodigo/blob/master/cap8/exemplo1/src/main/java/exemplo1/ExemploAdventOfCode.java):
   implementação de um dos primeiros desafios do Advent of Code 2020
 
-Essas classes são testadas por meio dos seguintes testes:
+Essas classes são testadas por meio dos seguintes testes de unidade:
 
 * [TesteCalculadora.java](https://github.com/mtov/ESM-ExemplosCodigo/blob/master/cap8/exemplo1/src/test/java/exemplo1/TesteCalculadora.java)
 * [StackTest.java](https://github.com/mtov/ESM-ExemplosCodigo/blob/master/cap8/exemplo1/src/test/java/exemplo1/StackTest.java)
