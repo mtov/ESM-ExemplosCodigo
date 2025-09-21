@@ -1,15 +1,15 @@
 # Cap. 8 - Testes de Software
 
-Exemplos simples de testes de unidade implementados usando JUnit 5.
+Exemplos de testes de unidade implementados usando JUnit 5.
 
-* [Exemplo1](https://github.com/mtov/ESM-ExemplosCodigo/tree/master/cap8/exemplo1): Calculadora
+* [Exemplo1](https://github.com/mtov/ESM-ExemplosCodigo/tree/master/cap8/exemplo1): Testes de classes Calculadora, Stack e um desafio do Advent of Code 2020.
 
 ## Como rodar os testes?
 
-Basta digitar na pasta raiz (exemplo: na pasta `cap8\exemplo1`):
+Basta digitar na pasta raiz (exemplo: na pasta `exemplo1`):
 
 ```mvc clean test```
 
-As classes Java que serão testadas estão na pasta `cap8\exemplo1\src\main`.
+As classes Java que serão testadas estão na pasta `src\main`.
 
-Os arquivos com os testes de unidade estão na pasta `cap8\exemplo1\src\test`.
+Os arquivos com os testes de unidade estão na pasta `src\test`.
