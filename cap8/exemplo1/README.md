@@ -19,5 +19,5 @@ Essas classes são testadas por meio dos seguintes testes de unidade:
 
 Basta digitar na pasta raiz (`exemplo1`):
 
-```mvc clean test```
+```mvn clean test```
 
