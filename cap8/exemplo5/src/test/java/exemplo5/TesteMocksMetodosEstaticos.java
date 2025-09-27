@@ -2,7 +2,7 @@
 * Engenharia de Software Moderna - Testes  (Cap. 8)
 * Prof. Marco Tulio Valente
 * 
-* Teste que usa um mock testar um método estático
+* Teste que usa um mock para testar um método estático
 * Usando um recurso novo do Mockito, disponível a partir 
 * da versão 3.4.0. Antes dessa versão, não era possível 
 * criar mocks para métodos estáticos.
@@ -15,7 +15,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.mockito.MockedStatic;
 import org.mockito.Mockito;
 
-public class Teste {
+public class TesteMocksMetodosEstaticos {
   
   @Test
   public void testaMetodoEstatico() {
