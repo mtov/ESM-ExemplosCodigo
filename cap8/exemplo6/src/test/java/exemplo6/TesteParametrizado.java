@@ -16,6 +16,7 @@ public class TesteParametrizado {
 
   // teste parametrizado
   // ele será chamado 5 vezes pelo framework de teste
+  // irá falhar para n = 1, 3, e 5
   // parâmetros de cada chamada são informados explicitamente (@ValueSource)
   @ParameterizedTest
   @ValueSource(ints = { 1, 2, 3, 4, 5 })
@@ -26,7 +27,7 @@ public class TesteParametrizado {
   // teste não-parametrizado
   @Test
   void testaSeNumeroPar2() {
-    assertTrue(Calculadora.isEven(1));
+    assertTrue(Calculadora.isEven(1));  
 
     // como o assert anterior vai falhar
     // na prática, os próximos assert não serão executados
