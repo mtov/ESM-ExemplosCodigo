@@ -6,8 +6,8 @@ da versão 3.4.0. Antes dessa versão, não era possível criar mocks para méto
 Classe que é testada no exemplo: 
 [Sistema.java](https://github.com/mtov/ESM-ExemplosCodigo/blob/master/cap8/exemplo5/src/main/java/exemplo5/Sistema.java)
 
-Teste de unidade: 
-[Teste.java](https://github.com/mtov/ESM-ExemplosCodigo/blob/master/cap8/exemplo5/src/test/java/exemplo5/Teste.java)
+Teste de unidade com um mock de método estático: 
+[TesteMocksMetodosEstaticos.java](https://github.com/mtov/ESM-ExemplosCodigo/blob/master/cap8/exemplo5/src/test/java/exemplo5/TesteMocksMetodosEstaticos.java)
 
 ## Como rodar os testes?
 
