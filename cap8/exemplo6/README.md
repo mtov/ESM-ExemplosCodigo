@@ -1,10 +1,7 @@
-# Exemplo 5: Teste com Mocks de Métodos Estáticos
-
-Teste que usa um mock para testar um método estático. Para isso, utiliza-se um recurso novo do Mockito, disponível a partir 
-da versão 3.4.0. Antes dessa versão, não era possível criar mocks para métodos estáticos.
+# Exemplo 6: Testes Repetidos e Parametrizados
 
 Classe que é testada no exemplo: 
-[Sistema.java](https://github.com/mtov/ESM-ExemplosCodigo/blob/master/cap8/exemplo5/src/main/java/exemplo5/Sistema.java)
+[Calculadora.java](https://github.com/mtov/ESM-ExemplosCodigo/blob/master/cap8/exemplo6/src/main/java/exemplo6/Calculadora.java)
 
 Teste de unidade: 
 [Teste.java](https://github.com/mtov/ESM-ExemplosCodigo/blob/master/cap8/exemplo5/src/test/java/exemplo5/Teste.java)
