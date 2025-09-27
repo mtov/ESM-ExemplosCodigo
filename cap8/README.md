@@ -7,5 +7,6 @@ Exemplos de testes de unidade implementados usando JUnit 5.
 * [Exemplo 3](https://github.com/mtov/ESM-ExemplosCodigo/tree/master/cap8/exemplo3): Teste de uma classe Stack em JavaScript
 * [Exemplo 4](https://github.com/mtov/ESM-ExemplosCodigo/tree/master/cap8/exemplo4): Teste com mocks
 * [Exemplo 5](https://github.com/mtov/ESM-ExemplosCodigo/tree/master/cap8/exemplo5): Teste com mocks de métodos estáticos
+* [Exemplo 6](https://github.com/mtov/ESM-ExemplosCodigo/tree/master/cap8/exemplo6): Teste repetido e parametrizado
 
 
